@@ -11,7 +11,7 @@ matplotlib.use('Agg')
 app = Flask(__name__)
 
 # Конфігурація API ключа для Google API
-api_key = "AIzaSyC1NkUA6QGOT1et5dA_INirKB5IClYJS1c"  # Замініть на дійсний API ключ
+api_key = ""  # Замініть на дійсний API ключ
 
 # Створення клієнта для Google API
 youtube = build('youtube', 'v3', developerKey=api_key)
